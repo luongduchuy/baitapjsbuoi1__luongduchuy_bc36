@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container__form {
+  height: auto;
+  width: auto;
+}
+.container__form {
+  background-color: #edf2f9 !important;
+}
+html {
+  background-color: #edf2f9 !important;
+}
+.tab__content .item {
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.tab__content .item:hover {
+  color: blue !important;
+}
+.item__content {
+  width: 700px;
+  margin-left: 50px;
+}
+.background__form {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  height: auto;
+  padding-bottom: 30px;
+}
+.container__item__tabs {
+  height: 100%;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+.text1 {
+  background-color: #fff;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+input {
+  border: none;
+  background-color: #ecf0f3;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 30px;
+}
+
