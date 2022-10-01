@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container__form">
+      <div
+        class="container background__form mt-2 rounded"
+        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; height: auto;"
+      >
+        <div class="d-flex container" >
+          <div class="container__item__tabs">
+            <div
+              class="nav flex-column nav-pills tab__content"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active item"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+                >Bài 1</a
+              >
+              <a
+                class="nav-link item"
+                id="v-pills-profile-tab"
+                data-toggle="pill"
+                href="#v-pills-profile"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+                >Bài 2</a
+              >
+              <a
+                class="nav-link item"
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Bài 3</a
+              >
+              <a
+                class="nav-link item"
+                id="v-pills-messages-tab-bai-4"
+                data-toggle="pill"
+                href="#v-pills-messages-bai-4"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Bài 4</a
+              >
+              <a
+                class="nav-link item"
+                id="v-pills-settings-tab"
+                data-toggle="pill"
+                href="#v-pills-settings"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+                >Bài 5</a
+              >
+            </div>
+          </div>
+
+          <div class="tab-content ml-5"  id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active item__content"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+            <h1>Tính tiền lương nhân viên</h1>
+            <form class="form-group mt-5">
+              <div class="text1 rounded">
+                <p class="font-weight-bold">Gợi ý:</p>
+                <p>
+                  Công thức: Lương = Lương 1 ngày * số ngày làm <br />
+                  Kiến thức áp dụng:
+                </p>
+                <ul>
+                  <li>Tìm tới thẻ và lấy giá trị</li>
+                  <li>Tạo hàm cơ bản</li>
+                  <li>Gắn sự kiện click cho button</li>
+                  <li>Thay đổi nội dung cho thẻ</li>
+                  <li>Xử lý load trang với button của form</li>
+                </ul>
+              </div>
+            </form>
+            <div>
+              <input min="1" type="number" placeholder="Nhập lương một ngày" />
+              <input min="1" id="txt__songaylam" type="number" placeholder="Số ngày làm" />
+            </div>
+            <div class="btn__tinhluong">
+              <button
+              id="btn__TNV"
+                class="btn btn-primary mt-5 rounded-pill"
+                style="width: 200px; height: 50px"
+              >
+                Tính lương
+              </button>
+            </div>
+            <div
+            id="footer__TNV"
+              class="mt-5 rounded d-flex pl-5"
+              style="
+                height: 50px;
+                align-items: center;
+                background-color: #d1e7dd;
+                border-color: #badbcc;
+              "
+            >
+            </div>
+            </div>
+            <div
+              class="tab-pane fade item__content"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+            <div>
+              <h1> Tính giá trị trung bình</h1>
+              <form class="form-group mt-5">
+                <div class="text1 rounded">
+                  <p class="font-weight-bold">Gợi ý:</p>
+                  <p>
+                    Kiến thức áp dụng:
+                  </p>
+                  <ul>
+                    <li>Tìm tới thẻ và lấy giá trị</li>
+                    <li>Tạo hàm cơ bản</li>
+                    <li>Gắn sự kiện click cho button</li>
+                    <li>Thay đổi nội dung cho thẻ</li>
+                    <li>Xử lý load trang với button của form</li>
+                    <li>Xử lý ép kiểu dữ liệu
+                    </li>
+  
+                  </ul>
+                </div>
+              </form>
+              <div style="gap: 30px;">
+                <input min="1" id="txt__sothuc1" type="number" placeholder="Số thực 1" />
+                <input min="1" id="txt__sothuc2" type="number" placeholder="Số thực 2" />
+                <input min="1" id="txt__sothuc3" type="number" placeholder="Số thực 3" />
+                <input min="1" id="txt__sothuc4" type="number" placeholder="Số thực 4" />
+                <input min="1" id="txt__sothuc5" type="number" placeholder="Số thực 5" />
+                
+              </div>
+              <div >
+                <button
+                id="btn__TB"
+                  class="btn btn-primary mt-5 rounded-pill"
+                  style="width: 200px; height: 50px"
+                >
+                  Tính trung bình
+                </button>
+              </div>
+              <div
+              id="footer__TB"
+                class="mt-5 rounded d-flex pl-5"
+                style="
+                  height: 50px;
+                  align-items: center;
+                  background-color: #d1e7dd;
+                  border-color: #badbcc;
+                "
+              >
+              </div>
+            </div>
+ 
+            </div>
+            <div
+              class="tab-pane fade item__content"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+            <div>
+              <h1>Quy đổi tiền</h1>
+              <form class="form-group mt-5">
+                <div class="text1 rounded">
+                  <p class="font-weight-bold">Gợi ý:</p>
+                  <p>
+                    Kiến thức áp dụng:
+                  </p>
+                  <ul>
+                    <li>Áp dụng các kiến thức như bài 1 và 2
+                    </li>
+                    <li>Giá USD mặc định 1 USD = 23500
+                    </li>
+                    <li>Có thể dùng thêm NumberFormat để số tiền hiển thị đẹp hơn: NumberFormat
+                      VD: new Intl.NumberFormat('vn-VN').format(23500); => 23,500</li>
+                  
+  
+                  </ul>
+                </div>
+              </form>
+              <div style="gap: 30px;">
+                <input min="1" id="txt__exchange" type="number" placeholder="Nhập số tiền USD" />
+                
+                
+              </div>
+              <div >
+                <button
+                id="btn__exchange"
+                  class="btn btn-primary mt-5 rounded-pill"
+                  style="width: 200px; height: 50px"
+                >
+                  Quy đổi tiền
+                </button>
+              </div>
+              <div
+              id="footer__exchange"
+                class="mt-5 rounded d-flex pl-5"
+                style="
+                  height: 50px;
+                  align-items: center;
+                  background-color: #d1e7dd;
+                  border-color: #badbcc;
+                "
+              >
+              </div>
+            </div>
+            
+            </div>
+            <div
+              class="tab-pane fade item__content"
+              id="v-pills-messages-bai-4"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+            <div>
+              <h1>Tính diện tích, chu vi hình chữ nhật</h1>
+              <form class="form-group mt-5">
+                <div class="text1 rounded">
+                  <p class="font-weight-bold">Gợi ý:</p>
+                  <p>
+                    Kiến thức áp dụng:
+                  </p>
+                  <ul>
+                    <li>Áp dụng các kiến thức như các bài trước
+                    </li>
+                    <li>Diện tích: dài x rộng
+
+                    </li>
+                    <li>Chu vi: (dài + rộng) x 2
+                    </li>
+                  
+  
+                  </ul>
+                </div>
+              </form>
+              <div style="gap: 30px;">
+                <input min="1" id="txt__dai" type="number" placeholder="Nhập chiều dài" />
+                <input min="1" id="txt__rong" type="number" placeholder="Nhập chiều rộng" />
+                
+                
+              </div>
+              <div >
+                <button
+                id="btn__chuvidientich"
+                  class="btn btn-primary mt-5 rounded-pill"
+                  style="width: 200px; height: 50px"
+                >
+                  Tính
+                </button>
+              </div>
+              <div
+              id="footer__chuvidientich"
+                class="mt-5 rounded d-flex pl-5"
+                style="
+                  height: 50px;
+                  align-items: center;
+                  background-color: #d1e7dd;
+                  border-color: #badbcc;
+                "
+              >
+              </div>
+            </div>
+            </div>
+            <div
+              class="tab-pane fade item__content"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+            <div>
+              <h1>Tính tổng 2 ký số</h1>
+              <form class="form-group mt-5">
+                <div class="text1 rounded">
+                  <p class="font-weight-bold">Gợi ý:</p>
+                  <p>
+                    Kiến thức áp dụng:
+                  </p>
+                  <ul>
+                    <li>Áp dụng cách tính như demo tổng 3 ký số trên lớp
+
+                    </li>
+                
+  
+                  </ul>
+                </div>
+              </form>
+              <div style="gap: 30px;">
+                <input min="1" id="txt__tong2so" type="number" placeholder="Nhập số có 2 chữ số" />
+                
+                
+              </div>
+              <div >
+                <button
+                id="btn__tong2so"
+                  class="btn btn-primary mt-5 rounded-pill"
+                  style="width: 200px; height: 50px"
+                >
+                  Tính tổng
+                </button>
+              </div>
+              <div
+              id="footer__tong2so"
+                class="mt-5 rounded d-flex pl-5"
+                style="
+                  height: 50px;
+                  align-items: center;
+                  background-color: #d1e7dd;
+                  border-color: #badbcc;
+                "
+              >
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- file logic -->
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
